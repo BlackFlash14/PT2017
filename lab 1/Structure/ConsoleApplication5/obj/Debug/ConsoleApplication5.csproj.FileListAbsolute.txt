@@ -1,0 +1,12 @@
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache

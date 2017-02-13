@@ -1,0 +1,9 @@
+c:\users\67493\documents\visual studio 2015\Projects\PrimeNumbers\Lab2\bin\Debug\Lab2.exe.config
+c:\users\67493\documents\visual studio 2015\Projects\PrimeNumbers\Lab2\bin\Debug\Lab2.exe
+c:\users\67493\documents\visual studio 2015\Projects\PrimeNumbers\Lab2\bin\Debug\Lab2.pdb
+c:\users\67493\documents\visual studio 2015\Projects\PrimeNumbers\Lab2\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+c:\users\67493\documents\visual studio 2015\Projects\PrimeNumbers\Lab2\obj\Debug\Lab2.exe
+c:\users\67493\documents\visual studio 2015\Projects\PrimeNumbers\Lab2\obj\Debug\Lab2.pdb
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab 1\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab 1\Lab2\obj\Debug\Lab2.exe
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab 1\Lab2\obj\Debug\Lab2.pdb

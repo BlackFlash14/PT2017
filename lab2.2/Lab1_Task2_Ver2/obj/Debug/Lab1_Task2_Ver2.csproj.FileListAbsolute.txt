@@ -1,0 +1,12 @@
+c:\users\67493\documents\visual studio 2015\Projects\MaxMin\Lab1_Task2_Ver2\bin\Debug\Lab1_Task2_Ver2.exe.config
+C:\Users\67493\Documents\Visual Studio 2015\Projects\MaxMin\Lab1_Task2_Ver2\bin\Debug\Lab1_Task2_Ver2.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\MaxMin\Lab1_Task2_Ver2\bin\Debug\Lab1_Task2_Ver2.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\MaxMin\Lab1_Task2_Ver2\obj\Debug\Lab1_Task2_Ver2.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\MaxMin\Lab1_Task2_Ver2\obj\Debug\Lab1_Task2_Ver2.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\MaxMin\Lab1_Task2_Ver2\obj\Debug\Lab1_Task2_Ver2.csprojResolveAssemblyReference.cache
+C:\Users\67493\Source\Repos\BlackFlash14Repository\MaxMin\Lab1_Task2_Ver2\bin\Debug\Lab1_Task2_Ver2.exe.config
+C:\Users\67493\Source\Repos\BlackFlash14Repository\MaxMin\Lab1_Task2_Ver2\obj\Debug\Lab1_Task2_Ver2.exe
+C:\Users\67493\Source\Repos\BlackFlash14Repository\MaxMin\Lab1_Task2_Ver2\obj\Debug\Lab1_Task2_Ver2.pdb
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab2\lab2.2\Lab1_Task2_Ver2\bin\Debug\Lab1_Task2_Ver2.exe.config
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab2\lab2.2\Lab1_Task2_Ver2\obj\Debug\Lab1_Task2_Ver2.exe
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab2\lab2.2\Lab1_Task2_Ver2\obj\Debug\Lab1_Task2_Ver2.pdb

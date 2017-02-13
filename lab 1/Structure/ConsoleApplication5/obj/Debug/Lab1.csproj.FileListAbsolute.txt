@@ -1,0 +1,15 @@
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\name agegpa\ConsoleApplication5\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\67493\Source\Repos\BlackFlash14Repository\Lab1\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\67493\Source\Repos\BlackFlash14Repository\Lab1\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\67493\Source\Repos\BlackFlash14Repository\Lab1\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab 1\Structure\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab 1\Structure\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab 1\Structure\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab 1\Structure\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab 1\Structure\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab 1\Structure\ConsoleApplication5\obj\Debug\Lab1.csprojResolveAssemblyReference.cache

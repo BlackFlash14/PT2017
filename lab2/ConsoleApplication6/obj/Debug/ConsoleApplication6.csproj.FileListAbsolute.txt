@@ -1,0 +1,21 @@
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.csprojResolveAssemblyReference.cache
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+c:\users\67493\documents\visual studio 2015\Projects\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\Complex numbers\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+C:\Users\67493\Documents\Visual Studio 2015\Projects\Complex numbers\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\Complex numbers\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\Complex numbers\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\Complex numbers\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+C:\Users\67493\Documents\Visual Studio 2015\Projects\Complex numbers\ConsoleApplication6\obj\Debug\ConsoleApplication6.csprojResolveAssemblyReference.cache
+C:\Users\67493\Documents\Visual Studio 2015\Projects\ConsoleApplication1\Complex numbers\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+C:\Users\67493\Documents\Visual Studio 2015\Projects\ConsoleApplication1\Complex numbers\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+C:\Users\67493\Documents\Visual Studio 2015\Projects\ConsoleApplication1\Complex numbers\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+C:\Users\67493\Source\Repos\BlackFlash14Repository\Complex numbers\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+C:\Users\67493\Source\Repos\BlackFlash14Repository\Complex numbers\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+C:\Users\67493\Source\Repos\BlackFlash14Repository\Complex numbers\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab2\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab2\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+C:\Users\67493\Source\Repos\BlackFlash14Repository\lab2\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
