@@ -23,7 +23,7 @@ namespace SnakeII
 
         public void Generate()
         {
-            this.points.Add(new Point(10,10));
+            this.points.Add(new Point(10,10));//задаем начальную позицию змейки
         }
 
         public void changeDirection(int v1, int v2)
@@ -34,7 +34,7 @@ namespace SnakeII
 
         public bool Collision()
         {
-            for (int i = 0; i < Game.wall.points.Count; i++)
+            for (int i = 0; i < Game.wall.points.Count; i++)// при совпадении точек змейки и стенки возратить "столкновение"
                 if (points[0].Equals(Game.wall.points[i]))
                     return true;
             return false;

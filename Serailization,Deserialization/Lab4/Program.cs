@@ -1,55 +1,56 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 
-namespace LAB4
+namespace LAB5
 {
     [Serializable]
     public class Complex
     {
-        int a;
-        int b;
-        public Complex()
-        {
-            this.a = 6;
-            this.b = 6;
-        }
+        public int a;
+        public int b;
         public Complex(int a, int b)
         {
             this.a = a;
             this.b = b;
         }
-
-        public static Complex operator +(Complex c1, Complex c2)
+        public static Complex operator +(Complex a1, Complex b2)
         {
-            Complex res = new Complex(0, 0);
-            res.a = c1.a + c2.a;
-            res.b = c1.b + c2.b;
-
-            return res;
+            Complex result = new Complex(0, 0);
+            result.a = a1.a + b2.a;
+            result.b = a1.b + b2.b;
+            return result;
+        }
+        public override string ToString()
+        {
+            return string.Format("{0} + {1}i", a, b);
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            //создаем объект для сериализации
-            XmlSerializer xml = new XmlSerializer();
-            Complex s = new Complex(6, 6);// создаем объект класса комплекс
-            FileStream fs = new FileStream("complexxml.txt", FileMode.OpenOrCreate);// создаем поток для открытия или создания файла
+            //создаем объект для класса Complex
+            Complex s = new Complex(6, 6);
+            // создаем объект BinaryFormatter
+            BinaryFormatter formatter = new BinaryFormatter();
+            // получаем поток, где будем создавать или открывать файл, в которой будем проводить сериализацию 
+            using (FileStream fs = new FileStream("complex.txt", FileMode.OpenOrCreate))
+            {
+                formatter.Serialize(fs, s);
+            }
 
-            xml.Serialize(fs, s);
-            fs.Close();
+            using (FileStream fs = new FileStream("complex.txt", FileMode.OpenOrCreate))
+            {
+                Complex newComplex = (Complex)formatter.Deserialize(fs);//проводим десериализацию в complex.txt
+                Console.WriteLine("{0} + {1}i", newComplex.a, newComplex.b);
+            }
 
-            Complex s1 = new Complex();//создаем пустой объект класса комплекс
-            FileStream fs = new FileStream("complexxml.txt", FileMode.Open, FileAccess.Read);//открываем поток для чтения            
-
-            s1 = (Complex)xml.Deserialize(fs1);//переписываем данные в виде комплекса
-            fs.Close();
+            Console.ReadLine();
         }
     }
 }

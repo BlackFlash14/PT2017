@@ -14,7 +14,7 @@ namespace SnakeII
         }
         public void Generate()
         {
-            this.points.Add(new Point());
+            this.points.Add(new Point(0, 15));
         }
     }
 }

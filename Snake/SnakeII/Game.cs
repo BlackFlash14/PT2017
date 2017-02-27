@@ -17,7 +17,7 @@ namespace SnakeII
         public static Worm worm;
         public static Wall wall;
 
-        public static bool inGame = true;
+        public static bool inGame = true;// пока выолняется InGame, следующие переменные действительны
         public Game()
         {
             food = new Food();
@@ -29,7 +29,7 @@ namespace SnakeII
        
         public void CanEat()
         {
-            if (worm.points[0].Equals(food.points[0]))
+            if (worm.points[0].Equals(food.points[0])) //указываем, что "еда" присоединяется к "змейке"
             {
                 worm.points.Add(food.points[0]);
                 score++;

@@ -9,14 +9,15 @@ namespace SnakeII
 {
     class Program
     {
-        public static Thread toMove = new Thread(new ThreadStart(motion));
+        //используем системный класс для получения непрерывного движения
+        public static Thread toMove = new Thread(new ThreadStart(motion)); 
         public static Thread pressedKeys = new Thread(new ThreadStart(doing));
        
         static void Main(string[] args)
         {
-            Console.CursorVisible = false;
+            Console.CursorVisible = false; //обозначаем курсор невидимым
             Game game = new SnakeII.Game();
-            Program.pressedKeys.Start();
+            Program.pressedKeys.Start();//начинаем игру по нажатию клавиш
         }
 
         public static void doing()
@@ -34,7 +35,7 @@ namespace SnakeII
                 Game.food.Draw();
                 Game.worm.Draw();
                 ConsoleKeyInfo button = Console.ReadKey(true);
-
+                //задаем условия, при которых позиция "змейки" будет меняться
                 switch (button.Key)
                 {
                     case ConsoleKey.UpArrow:

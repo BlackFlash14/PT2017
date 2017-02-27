@@ -12,10 +12,10 @@ namespace SnakeII
         {
             this.sign = '$';
         }
-        
+
         public bool foodInWall()
         {
-            for(int i = 0; i < Game.wall.points.Count; i++)
+            for (int i = 0; i < Game.wall.points.Count; i++)
             {
                 if (points[0].Equals(Game.wall.points[i]))
                     return true;
@@ -42,7 +42,10 @@ namespace SnakeII
         }
         public void Generate()
         {
-            this.points.Add(new Point(new Random().Next(0, 25), new Random().Next(0, 10)));
-        }
+            {
+                this.points.Add(new Point(new Random().Next(0, 15), new Random().Next(0, 10)));
+            }
     }
+    }
+
 }
