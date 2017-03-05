@@ -10,8 +10,8 @@ namespace SnakeII
     class Program
     {
         //используем системный класс для получения непрерывного движения
-        public static Thread toMove = new Thread(new ThreadStart(motion)); 
-        public static Thread pressedKeys = new Thread(new ThreadStart(doing));
+        public static Thread toMove = new Thread(new ThreadStart(Motion)); 
+        public static Thread pressedKeys = new Thread(new ThreadStart(Doing));
        
         static void Main(string[] args)
         {
@@ -20,7 +20,9 @@ namespace SnakeII
             Program.pressedKeys.Start();//начинаем игру по нажатию клавиш
         }
 
-        public static void doing()
+
+
+        public static void Doing()
         {
             Game.food.Generate();
             Game.wall.Generate();
@@ -50,14 +52,18 @@ namespace SnakeII
                     case ConsoleKey.LeftArrow:
                         Game.worm.changeDirection(-1, 0);
                         break;
-                    case ConsoleKey.F1:
+                    case ConsoleKey.S:
+                        Game.SaveGame();
+                        break;
+                    case ConsoleKey.L:
+                        Game.LoadGame();                                                      
                         break;
                 }
-                Game.worm.Clear();
+                Console.Clear();
             }
         }
 
-        public static void motion()
+        public static void Motion()
         {
             while (Game.inGame)
             {
@@ -70,16 +76,16 @@ namespace SnakeII
                     Game.worm.points[i].y = Game.worm.points[i - 1].y;
                 }
 
-                if (Game.worm.points[0].x + Game.worm.dx < 0)// for x
-                    Game.worm.points[0].x = 50;
+                if (Game.worm.points[0].x + Game.worm.dx < 0)
+                    Game.worm.points[0].x = 20;
                 else
                     if (Game.worm.points[0].x + Game.worm.dx > Game.WIDTH)
                         Game.worm.points[0].x = 0;
                     else
                     Game.worm.points[0].x = Game.worm.points[0].x + Game.worm.dx;
 
-                if (Game.worm.points[0].y + Game.worm.dy < 0) // for y
-                    Game.worm.points[0].y = 30;
+                if (Game.worm.points[0].y + Game.worm.dy < 0) 
+                    Game.worm.points[0].y = 20;
                 else
                     if (Game.worm.points[0].y + Game.worm.dy > Game.HEIGTH)
                          Game.worm.points[0].y = 0;
@@ -89,8 +95,8 @@ namespace SnakeII
                 Game.worm.Draw();
                 Game.worm.game.CanEat();
                 if (Game.worm.Collision())
-                    Game.inGame = false;
-            }
+                    Game.inGame = false;            
+                }
         }
 
     }

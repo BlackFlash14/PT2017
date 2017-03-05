@@ -40,12 +40,20 @@ namespace SnakeII
                 Generate();
             }
         }
+
+        internal void Save1()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Generate()
         {
-            {
-                this.points.Add(new Point(new Random().Next(0, 15), new Random().Next(0, 10)));
+            {            
+                    this.points.Add(new Point(new Random().Next(0, 15), new Random().Next(0, 10)));
+                }
             }
-    }
+        }
     }
 
-}
+
+

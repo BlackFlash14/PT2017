@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SnakeII
 {
-    public class Wall:GameObject
+    [Serializable]
+    public class Wall: GameObject
     {
         public Wall()
         {
@@ -14,7 +15,12 @@ namespace SnakeII
         }
         public void Generate()
         {
-            this.points.Add(new Point(0, 15));
+            this.points.Add(new Point(5, 5));           
+        }
+
+        internal Wall Load1()
+        {
+            throw new NotImplementedException();
         }
     }
 }
